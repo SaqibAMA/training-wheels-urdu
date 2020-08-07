@@ -25,8 +25,8 @@ Training Wheels Urdu is a collection of C++ Macros that are designed to aid in p
 
 ## Urdu Instructions
 
-- اسس لائبریری کا استمعال کرنے کیلئے سب پہلے کوڈ بلاکس انسٹال کریں.
-- کوڈ بلاکس انسٹال کرنے کیلئے اسس لنک پر کلک کریں،
+- اس لائبریری کا استمعال کرنے کیلئے سب پہلے کوڈ بلاکس انسٹال کریں.
+- کوڈ بلاکس انسٹال کرنے کیلئے اس لنک پر کلک کریں،
 - <a href="http://www.codeblocks.org/downloads/26" target="_blank">Code::Blocks</a> MinGW version.
 - خیال رکھیے کے آپ کو بتایا ہوا ورژن ہی ڈونلوڈ کرنا ہے.
 - کوڈ بلاکس میں نیا پراجیکٹ بناہے اور اس میں دونو فائلز رکھ دیں
