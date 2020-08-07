@@ -1,3 +1,4 @@
+#pragma once
 
 #include <iostream>     // For IO
 #include <string>       // For String Input
