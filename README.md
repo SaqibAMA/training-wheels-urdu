@@ -2,6 +2,8 @@
 
 Training Wheels Urdu is a collection of C++ Macros that are designed to aid in programming education across Urdu speaking demographic. It has embedded various common Urdu words as a means to teach programming to individuals who are not adept or proficient in English.
 
+<img src="https://i.postimg.cc/7YzFSyB2/image.png" alt="Sample Program" />
+
 ## Objectives
 
 - To aid individuals with low English proficiency.
