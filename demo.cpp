@@ -193,6 +193,33 @@ shuroo
     }
 
 
+    // This is an alternate form of jab_tak(conditon).
+    // In this form, the task executes at least once.
+
+    // UR: Ye jab_tak(condition) ki mukhtalif form hai.
+    // UR: iss block me code kam se kam bhi aik dafa
+    // UR: zaroor execute hota hai.
+
+    // In this example, the program will print "hi"
+    // at least once even if we can see that hiCount
+    // is never less than 0.
+
+    // UR: iss example mein, hiCount hamesha hi 0 se
+    // UR: bara hai lekin phir bhi loop aik dafa chalega.
+
+    num_rakho hiCount = 1;
+    karo {
+
+        dikhao("hi");
+        agli_line;
+
+        hiCount = hiCount + 1;
+
+    } jab_tak(hiCount < 0);
+
+    
+
+
 khatam
 // khatam signifies the end of program.
 // UR: khatam ka matlab program ka ikhtetaam.

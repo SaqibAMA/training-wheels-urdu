@@ -1,3 +1,7 @@
+// Created by: Saqib Ali
+// License: MIT
+// Training Wheels Urdu
+
 #pragma once
 
 #include <iostream>     // For IO
@@ -20,4 +24,6 @@ using namespace std;
 #define warna_agar(condition) else if (condition)
 
 #define repeat(n) for (int i = 0; i < n; i++)           // Repetition
-#define jab_tak(condition) while(condition)
+#define jab_tak(condition) while(condition)             // While() repetition
+#define karo do                                         // do {} while() {} repetition
+
