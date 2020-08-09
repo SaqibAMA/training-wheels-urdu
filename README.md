@@ -34,3 +34,8 @@ Training Wheels Urdu is a collection of C++ Macros that are designed to aid in p
 - کوڈ بلاکس میں نیا پراجیکٹ بناہے اور اس میں دونو فائلز رکھ دیں
 - پھر اوپر دے ہوئے سبز رنگ کے پلے بٹن کو دباہے
 - آپ کا پروگرام چل پڑیگا.
+
+## Contributors
+
+@PySaqib
+@ShahrozTanveer
