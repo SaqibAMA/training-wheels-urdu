@@ -27,3 +27,5 @@ using namespace std;
 #define jab_tak(condition) while(condition)             // While() repetition
 #define karo do                                         // do {} while() {} repetition
 
+#define jari_rehna continue // breaks one iteration
+#define torna break // jump out of loop
