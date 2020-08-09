@@ -217,6 +217,83 @@ shuroo
 
     } jab_tak(hiCount < 0);
 
+
+    // tordo is used when we want to immediately get out
+    // of a repetition.
+
+    // jari_rakho does something different. It takes the control
+    // back to the start of the repetition rather than
+    // executing the next line.
+
+    // UR: tordo tab use hota hai jab hame repetition mein se
+    // UR: foran baahir nikalna ho.
+
+    // UR: jari_rakho tab use hota hai jab hamein aage waali
+    // UR: lines execute kiye baghair repetition ke shuroo mein
+    // UR: jaana ho.
+
+    // This example highlights the use of tordo and jari_rakho
+    // keywords.
+
+    // UR: Iss example mein ham tordo aur jari_rakho keywords
+    // UR: ka use dekhenge.
+
+
+    num_rakho n = 5;
+
+    repeat(100) {
+
+        // Even when the loop is set to run 100 times.
+        // It will exit after 1 repetition.
+        // Moreover, the "loop chal raha hai" statement
+        // will not be executed either.
+
+        // UR: halaanke hamne loop ko 100 times
+        // UR: chalne keliye kaha hai, loop 1
+        // UR: hi dafa chal kar exit karjayega.
+        // UR: uss ke ilaawa "loop chal raha hai"
+        // UR: bhi print nahi hogi kiunke loop pehle
+        // UR: hi toot gaya.
+
+        agar(n == 5) {
+            dikhao("loop khatam.");
+            tordo;
+        }
+
+        dikhao("loop chal raha hai.");
+
+    }
+
+
+    // Use of jari_rakho keyword.
+    // UR: jari_rakho keyword ka istemaal.
+
+    n = 5;
+
+    repeat(100) {
+
+        // In this example the control will never reach
+        // "loop chal raha hai" because as soon as
+        // the program reaches jari_rakho, it takes
+        // the control back to the top of the loop.
+        
+        // Iss example mein jari_rakho keyword
+        // "loop chal raha hai" waali line run nahi
+        // honay dega kiunke jab bhi program udhar puhanchega
+        // woh dubara loop ke start par chala jayega.
+
+
+        agar(n == 5) {
+            dikhao("loop khatam.");
+            jari_rakho;
+        }
+
+        dikhao("loop chal raha hai.");
+
+    }
+
+
+
     
 
 
