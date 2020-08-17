@@ -36,6 +36,5 @@ Training Wheels Urdu is a collection of C++ Macros that are designed to aid in p
 - آپ کا پروگرام چل پڑیگا.
 
 ## Contributors
-
-@PySaqib
-@ShahrozTanveer
+- [Saqib Ali](https://github.com/PySaqib)
+- [Sharoz Tanveer](https://github.com/ShahrozTanveer)
